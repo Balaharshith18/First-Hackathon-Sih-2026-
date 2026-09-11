@@ -1,88 +1,11 @@
-MEDILINK WEB APPLICATION/ MOBILE APP (PD)
- 
-Contains 4 different LOGINS,
-1)patient login
-2)Hospital admin login
-3)Doctor login
-4)super admin login
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Patient Dashboard
-│
-├── 👤 Profile
-│
-├── 🚨 Emergency SOS
-│ ├── Real-Time Ambulance Tracking
-│ └── ETA & Google Map
-│
-├── 🏥 Nearby Hospitals
-│ ├── Select Health Problem
-│ ├── Smart Hospital Matching
-│ ├── Call Hospital
-│ └── Route Navigation
-│
-├── 📅 Online Appointment Booking
-│ ├── Select Doctor
-│ ├── Choose Slot
-│ └── Confirm Appointment
-│
-├── 📄 Medical Records
-│ ├── Prescriptions
-│ ├── Lab Reports
-│ └── Medical History
-│
-├── 💊 Medicine Reminders
-│
-└── 🤖 AI Health Assistant
-├── Symptom Analysis
-├── First Aid Guidance
-├── Hospital Recommendations
-└── Appointment Assistance
+MediLink is a healthcare web and mobile application designed to connect patients, hospitals, doctors, and healthcare administrators through a unified digital platform. The system consists of four different login modules: Patient Login, Hospital Admin Login, Doctor Login, and Super Admin Login. Its primary goal is to improve emergency response, healthcare accessibility, hospital collaboration, and patient care management.
 
+The Patient Dashboard provides users with essential healthcare services in one place. Patients can manage their profiles, access an Emergency SOS system with real-time ambulance tracking, view ambulance ETA through Google Maps, and locate nearby hospitals based on their health problems. The platform offers Smart Hospital Matching, direct hospital calling, and route navigation. Patients can also book appointments by selecting doctors, choosing available slots, and confirming appointments. Additional features include digital medical records management for prescriptions, lab reports, and medical history, medicine reminder notifications, and an AI Health Assistant that provides symptom analysis, first-aid guidance, hospital recommendations, and appointment assistance.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Hospital Admin Dashboard enables hospitals to manage emergency services and healthcare resources efficiently. Hospital administrators can monitor SOS requests, allow ambulance drivers to accept emergency cases, and track patient locations in real time using Google Maps. The Resource Management module helps hospitals maintain and update the availability of ICU beds, blood units, oxygen cylinders, and ventilators. Through the Hospital Networking module, hospitals can request resources, share available resources with partner hospitals, monitor resource exchanges, and strengthen inter-hospital collaboration during emergencies.
 
+The Doctor Dashboard is designed to simplify patient consultation and treatment management. Doctors can manage their profiles, view appointment schedules, maintain consultation notes, create prescription notes, and access patient medical histories. This allows healthcare professionals to provide efficient and organized patient care.
 
-Hospital Admin Dashboard
-│
-├── 🚑 Ambulance Management only for Drivers
-│ ├── View SOS Requests
-│ ├── Ambulance Driver Accepts
-│ ├── Patient Location real time track with google maps
-│
-│
-├── 🏥 Resource Management
-│ ├── ICU Beds Availability
-│ ├── Blood Units Stock
-│ ├── Oxygen Cylinders
-│ ├── Ventilators
-│ └── Add / Update Resources
-│
-│
-└── 🤝 Hospital Networking
-├── Request Resources
-├── Share Resources
-├── View Partner Hospitals
-└── Resource Exchange Tracking
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Doctor Dashboard
-│
-├── 👨‍⚕️ Profile
-├── 📅 Appointments
-├── 📝 Consultation Notes
-├── 📄 Prescription Notes
-└── 📚 Patient History
+The Super Admin Dashboard serves as the central monitoring and management system for the entire MediLink ecosystem. Super administrators can oversee connected hospitals and doctors, monitor SOS cases and resource exchanges, analyze system performance through graphical reports such as bar graphs, pie charts, and line charts, track overall platform performance, and review recent activities occurring across the network.
 
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Super Admin Dashboard
-│
-├── 🏥 Connected Hospitals
-├── 👨‍⚕️ Connected Doctors
-├── 🚨 SOS Cases Monitoring
-├── 🤝 Resource Exchange Monitoring
-├── 📊 Analytics & Reports
-│ ├── Bar Graphs
-│ ├── Pie Charts
-│ └── Line Charts
-├── 📈 Performance Tracking
-└── 🕒 Recent Activity
+By integrating emergency response services, hospital resource sharing, appointment management, digital medical records, and AI-powered healthcare assistance, MediLink aims to reduce emergency response times, improve healthcare accessibility, optimize resource utilization, and create a connected healthcare ecosystem that saves lives through collaborative healthcare services.
